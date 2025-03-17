@@ -1,0 +1,66 @@
+*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./ass2.css"> -->
+    <style>
+        table{
+            background-color: rgb(237, 182, 151);
+        }
+        
+        .a{
+            background-color: lightslategray;
+        }
+    </style>
+</head>
+<body>
+    <table border="1px solid">
+        <caption>Assignment 2 Table</caption>
+        <thead>
+            <tr>
+            <th>Item</th>
+            <th class="a">Quantity</th>
+            <th class="a">Unit Price</th>
+            <th class="a">Price </th>
+        </tr>
+        </thead>
+        <tr>
+            <td>Pencil</td>
+            <td>2</td>
+            <td>$1</td>
+            <td>$2</td>
+
+        </tr>
+        <tr>
+            <td>Eraser</td>
+            <td>4</td>
+            <td rowspan="2">$0.50</td>
+            <td>$2</td>
+         </tr>
+         <tr>
+            <td colspan="2">Subtotal</td>
+           
+            <td>$4</td>
+            
+
+
+         </tr>
+         <tr>
+            <td>Tax</td>
+            <td>10%</td>
+            <td colspan="2">$0.4</td>
+            
+
+
+         </tr>
+         <tfoot>
+            <td colspan="4">Footer of the table</td>
+         </tfoot>
+
+
+    </table>
+    
+</body>
+</html>
