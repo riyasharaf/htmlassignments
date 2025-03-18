@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url('./Oswald/static/Oswald-Regular.ttf');
+}
+
+h1 {
+   
+    font-family: 'Oswald-Regular';
+    font-size: 40px;
+     border: 4px dotted rgb(123, 112, 127); 
+    margin: 30px 60px; 
+    padding: 20px;
+    word-spacing: 10px;
+    letter-spacing: 20px;
+    text-decoration: line-through;
+    border-radius: 10px;
+    text-shadow: 20px;
+    text-transform: capitalize;
+
+
+  
+    outline: 5px solid pink;
+    outline-offset: 10px;  /* we can take negative values for inline*/
+
+}
+
+
