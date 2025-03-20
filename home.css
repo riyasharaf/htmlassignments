@@ -1,0 +1,101 @@
+  div .btn{
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: rgb(213, 73, 23);
+    height: 30px;
+    width: 200px;
+    color: white;
+    margin: 15px;
+    padding: 5px;
+
+}
+a{
+ color: white
+}
+
+#one {
+    height: 300px;
+    width: 1600px;
+    border: solid 1px ;
+    border-color: rgb(213, 73, 23);
+    margin-bottom: 10px;
+}
+#three{
+    height: 300px;
+    width: 1600px;
+    border: solid 1px ;
+    border-color: rgb(213, 73, 23);
+    margin-bottom: 10px;
+    
+}
+
+#six{
+    height: 300px;
+    width: 1600px;
+    border: solid 1px ;
+    border-color: rgb(213, 73, 23);
+    margin-bottom: 10px;
+}
+
+ .p1{
+    text-decoration: underline;
+    font-size: 20px;
+}
+#two{
+
+    height: 200px;
+    width: 800px;
+    border: solid 1px ;
+    border-color: black;
+    position: relative;
+    left: 30px;
+    overflow: auto;
+
+}
+
+#four{
+
+    height: 120px;
+    width: 1600px;
+    border: solid 1px ;
+    border-color: rgb(213, 73, 23);
+    margin-bottom: 10px;
+
+
+}
+
+#five{
+   
+    height: 40px;
+    width: 1590px;
+    border: solid 1px black;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    flex-wrap:nowrap;
+    margin-bottom: 20px;
+}
+
+#seven{
+    height: 100px;
+    width: 1590px;
+    border: solid 1px black;
+    margin-bottom: 30px;
+}
+
+#eight{
+    height: 250px;
+    width: 1600px;
+    border: solid 1px ;
+    border-color: rgb(213, 73, 23);
+    margin-bottom: 10px;
+
+}
+#nine{
+    height: 100px;
+    width: 1590px;
+    border: solid 1px black;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+}
